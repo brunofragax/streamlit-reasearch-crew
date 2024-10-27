@@ -6,8 +6,8 @@ from agents import ResearchCrewAgents
 from tasks import ResearchCrewTasks
 
 # Set up environment variables
-os.environ["OPENAI_API_KEY"] = "YOU API KEY HERE"
-os.environ["SERPER_API_KEY"] = "YOUR API KEY HERE"
+os.environ["OPENAI_API_KEY"] = "sk-cy7O8T-uFxQtB5oCQ-htMPBmRybavW6oxxDQJqfXfzT3BlbkFJ-dWQwBuHX7YEyEPkkwoMP27iMyxkI672VGylcjLjUA"
+os.environ["SERPER_API_KEY"] = "d760cc1bb1865e5b3a524cfc6320be289e092de2"
 class ResearchCrew:
     def __init__(self, inputs):
         self.inputs = inputs
