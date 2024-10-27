@@ -1,5 +1,4 @@
 import os
-from decouple import config
 from crewai import Crew, Process
 from textwrap import dedent
 from agents import ResearchCrewAgents
